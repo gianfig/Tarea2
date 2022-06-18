@@ -1,0 +1,64 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(238, 237, 237);
+}
+
+
+
+header{
+    background-color: rgb(255, 255, 255);
+    margin: 30px 150px 0px 150px;
+    height: auto;
+    border-bottom: 0.2px;
+    border-color: rgb(226, 224, 224);
+    border-style: solid;
+
+
+}
+
+
+
+
+.cuerpo{
+    background-color: rgb(255, 255, 255);
+    margin: -4px 150px 0px 150px;
+    height: 1068px;
+    border-bottom: 0.2px;
+    border-color: rgb(226, 224, 224);
+    border-style: solid;
+}
+
+p{
+    color: red;
+    text-align: center;
+    margin: 50px 250px 0 250px;
+    
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+    margin-left: 5%;
+}
+
+
+ul {
+    float: right;
+    margin: 45px 150px 0 0;
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    color: rgb(70, 65, 65);
+    font-size: 20px;
+    margin: 0px 15px 0px 15px;
+    text-decoration: none;
+    
+}

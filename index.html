@@ -3,24 +3,39 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>NUCBA PA</title>
+        <title>Portafolio</title>
         <link rel="stylesheet" href="style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <nav>
-                <div class="contenedor">
-                    <img class="logo" src="img/logo.png" alt="logo">
-                    <ul>
-                        <li><a href="#">INICIO</a></li>
-                        <li><a href="#">SOBRE MI</a></li>
-                        <li><a href="#">CONTACTO</a></li>
-                    </ul>
-                </div>
+        <header id="inicio">
+            <nav class="menu"> 
+                <a href="#inicio"><img class="logo" src="img/logo.png" alt="logo"></a>
+                <ul class="menu_items">
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#sobre_mi">SOBRE MI</a></li>
+                    <li><a href="#">EXPERIENCIA</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
             </nav>
+            <section class="hero">
+                <div class="intro">
+                    <img class="foto" src="img/foto.jpg" alt="Foto de Gianfranco">
+                    <h1 class="nombre">Gianfranco <span>Galli</span></h1>
+                    <h3 class="subtitulo">Futuro Diseñador Web</h3>
+                    <p class="texto">Estudiante de Lic. En Informática</p>
+                    <form>
+                        <a href="#sobre_mi">
+                        <input class="boton" type="submit" name="boton" value="Sobre mi">
+                        </a>
+                    </form>
+                </div>
+            </section>
+            <section class="cuerpo" id="sobre_mi">
+                <p class="texto">Tengo 20 años, desde muy chico me gusta la computación y todo lo relacionado, en el 2018 cuando conocí el mundo de la programación me encantó, por eso en 2019 cuando terminé la secundaria, decidí estudiar Licenciatura en informática y ahora complementarlo con Desarrollo Web</p>
+            </section>
         </header>
-        <section class="cuerpo">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ut cum molestias pariatur blanditiis exercitationem, numquam, harum iste libero deleniti, consequuntur tempore magnam. Dolorem provident porro maxime, est corporis quisquam.</p>
-        </section>
     </body>
 </html>

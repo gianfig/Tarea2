@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NUCBA PA</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="contenedor">
+                    <img class="logo" src="img/logo.png" alt="logo">
+                    <ul>
+                        <li><a href="#">INICIO</a></li>
+                        <li><a href="#">SOBRE MI</a></li>
+                        <li><a href="#">CONTACTO</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section class="hero">
+            <div class="texto-principal">
+            <h1>Gianfranco Galli</h1>
+            <h4>Futuro diseñador web</h4>
+            <p class="caja-texto">Estudiande de tercer año de Licenciatura en Informática con muchas ganas de aprender</p>
+        </div>
+        <img class="imagen" src="img/foto.jpg" alt="">
+        </section>
+    </body>
+</html>

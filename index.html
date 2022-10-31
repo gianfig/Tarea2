@@ -8,34 +8,104 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <header id="inicio">
+        <header>
             <nav class="menu"> 
-                <a href="#inicio"><img class="logo" src="img/logo.png" alt="logo"></a>
+                <a class="text_gian" href="#inicio">Gian<span class="span_franco">franco</span></a>
+                <label for="toggle-menu"><i class="fas fa-bars"></i></label>
+                <input type="checkbox" id="toggle-menu">
                 <ul class="menu_items">
                     <li><a href="#inicio">INICIO</a></li>
-                    <li><a href="#sobre_mi">SOBRE MI</a></li>
-                    <li><a href="#">EXPERIENCIA</a></li>
-                    <li><a href="#">CONTACTO</a></li>
+                    <li><a href="#experienciasecc">EXPERIENCIA</a></li>
+                    <li><a href="#contacto2">CONTACTO</a></li>
                 </ul>
             </nav>
-            <section class="hero">
-                <div class="intro">
-                    <img class="foto" src="img/foto.jpg" alt="Foto de Gianfranco">
-                    <h1 class="nombre">Gianfranco <span>Galli</span></h1>
-                    <h3 class="subtitulo">Futuro Diseñador Web</h3>
-                    <p class="texto">Estudiante de Lic. En Informática</p>
-                    <form>
-                        <a href="#sobre_mi">
-                        <input class="boton" type="submit" name="boton" value="Sobre mi">
-                        </a>
-                    </form>
-                </div>
-            </section>
-            <section class="cuerpo" id="sobre_mi">
-                <p class="texto">Tengo 20 años, desde muy chico me gusta la computación y todo lo relacionado, en el 2018 cuando conocí el mundo de la programación me encantó, por eso en 2019 cuando terminé la secundaria, decidí estudiar Licenciatura en informática y ahora complementarlo con Desarrollo Web</p>
-            </section>
         </header>
+        
+        <section class="hero" id="inicio">
+            <h1 class="nombre">Gianfranco <span>Galli</span></h1>
+            <h2 class="subtitulo">Estudiante de tercer año de Lic en Informática</h2>
+            <h6 class="h6_intro">Futuro diseñador web</h6>
+            <img class="imagen" src="img/foto.jpg" alt="Foto de Gianfranco">
+            <p class="text_hero">Tengo 20 años, desde muy chico me gusta la computación y todo lo relacionado, en el 2018 cuando conocí el mundo de la programación me encantó, por eso en 2019 cuando terminé la secundaria, decidí estudiar Licenciatura en informática y ahora complementarlo con Desarrollo Web</p>
+            <div class="botones">
+            <form>
+                <a href="#experienciasecc">
+                <input class="boton" type="submit" name="boton" value="Descargar CV">
+                </a>
+                <a href="#experienciasecc">
+                    <input class="boton" type="submit" name="boton" value="Experiencia">
+                </a>
+            </form>
+            </div>
+        </section>
+        <section class="experiencia" id="experienciasecc">
+            <h2 class="title_experiencia">EXPERIENCIA</h2>
+            <p class="text_exp">Un poco de mi experiencia</p>
+            <div class="contenedor">
+                <div class="cuadro">
+                    <img src="img/java_icon.png">
+                    <h3 class="title_carta">JAVA</h3>
+                    <p class="texto_carta">Conocimientos básicos y lógica del lenguaje</p> 
+                </div>
+                <div class="cuadro">
+                    <img src="img/python_icon.png">
+                    <h3 class="title_carta">PYTHON</h3>
+                    <p class="texto_carta">Conocimientos medios y lógica del lenguaje</p> 
+                </div>
+                <div class="cuadro">
+                    <img src="img/html_logo.png">
+                    <h3 class="title_carta">HTML5</h3>
+                    <p class="texto_carta">Conocimientos medios y lógica del lenguaje</p> 
+                </div>
+            </div>
+            <h2 class="title_experiencia">ESTUDIOS</h2>
+            <p class="text_exp">Un poco sobre mis estudios</p>
+            <div class="contenedor">
+                <div class="cuadro">
+                    <img src="img/libro_icon.png">
+                    <h3 class="title_carta">SECUNDARIA</h3>
+                    <span class="texto_carta2">Instituto Profesional San José (2014-2019)</span>
+                    <p class="texto_carta">Secundario aprobado con promedio de 8.66 con titulo Bachiller en informática</p> 
+                </div>
+                <div class="cuadro">
+                    <img src="img/universidad_icon.png">
+                    <h3 class="title_carta">UNIVERSIDAD</h3>
+                    <span class="texto_carta2">Universidad Metropolitana para la Educación y el Trabajo (2020-2025)</span>
+                    <p class="texto_carta">Me encuentro actualmente en el tercer año de la carrera Licenciatura en Informática con 33 materias aprobadas de 57 totales.</p> 
+                </div>
+                <div class="cuadro">
+                    <img src="img/nucba_icon.png">
+                    <h3 class="title_carta">CURSO</h3>
+                    <span class="texto_carta2">NUCBA (2022-2023)</span>
+                    <p class="texto_carta">Curso de programador web Full Stack. Actualmente me encuentro cursando la parte de diseño web (HTML5 Y CSS)</p> 
+                </div>
+            </div>
+        </section>
+        <section class="contacto" id="contacto2">
+            <h2 class="title_experiencia">CONTACTO</h2>
+            <div class="container">
+                <div class="cuadro_contacto">
+                    <i class="fa-brands fa-instagram fa-2x"> gianfigalli</i>
+                    <i class="fa-brands fa-facebook fa-2x"> gianfranco galli</i>
+                    <i class="fa-brands fa-linkedin fa-2x"> Gianfranco Galli</i>
+                    <i class="fa-solid fa-phone fa-2x"> 1167904300</i>
+                    <i class="fa-brands fa-discord fa-2x"> Gianfranco</i>
+                    <i class="fa-solid fa-house fa-2x"> Av. libertador</i>
+                </div>
+                
+
+                <div class="cuadro_contacto2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.2183386556367!2d-58.41193649623232!3d-34.59864002391417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca88cd187a2f%3A0x453cf3916d1d5929!2sAv.%20Cordoba%20Y%20Gallo!5e0!3m2!1ses-419!2sar!4v1657933194899!5m2!1ses-419!2sar" width="100%" height="100%" style="border:5;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <a class="text_gian" href="#inicio">Gian<span class="span_franco">franco</span></a>
+            <p class="texto_carta">Copyright - Todos los derechos reservados</p>
+        </section>
+
     </body>
 </html>
